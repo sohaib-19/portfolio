@@ -11,13 +11,13 @@ import GithubIcon from '../Assets/Images/github.svg';
 import JavascriptIcon from '../Assets/Images/javascript.svg';
 import FirebaseIcon from '../Assets/Images/firebase.svg';
 
-import KULogo from '../Assets/Images/Group 29.png';
-import JouharDegree from '../Assets/Images/jouhar.jpg';
-import TheEducators from '../Assets/Images/the-educators-1.jpg';
+import IULogo from '../Assets/Images/IU.png';
+import NCR from '../Assets/Images/NCR-CET_Logo.jpg'
+import School from '../Assets/Images/school.jpg';
 import Freelancing from '../Assets/Images/freelancing.svg';
 import TechNest from '../Assets/Images/logo-white.jpg';
 import Project1 from '../Assets/Project Images/Project1.png';
-import pic1 from '../Assets/Work/logo.jpg'
+// import pic1 from '../Assets/Work/logo.jpg'
 
 const customColorTheme = {
     primaryColor: "#ffff00",
@@ -28,39 +28,19 @@ const customColorTheme = {
 
 // Your Info
 const about = {
-    developerName: "Talha Khalid",
-    aboutText: "A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
+    developerName: "Syed Sohaib Ahmed",
+    aboutText: "A passionate Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Material-UI and some other cool libraries and frameworks.",
     resumeLink: "https://drive.google.com/file/d/1l2M26CSgU5Wew6K-LWZulxCxXdiIkOib/view?usp=sharing"
 };
 
 const skillSet = [
     {
-        skill: "MongoDB",
-        icon: MongoDbIcon,
-    },
-    {
-        skill: "Express",
-        icon: ExpressIcon,
-    },
-    {
         skill: "ReactJS",
         icon: ReactIcon,
     },
     {
-        skill: "NodeJS",
-        icon: NodeIcon,
-    },
-    {
-        skill: "Mongoose",
-        icon: null,
-    },
-    {
         skill: "Firebase",
         icon: FirebaseIcon
-    },
-    {
-        skill: "SQL Database",
-        icon: SqlDatabase,
     },
     {
         skill: "Github",
@@ -78,33 +58,29 @@ const skillSet = [
         skill: "Javascript",
         icon: JavascriptIcon,
     },
-    {
-        skill: "React Native",
-        icon: ReactIcon,
-    },
 ];
 
 // Your Education
 const education = [
     {
-        institute: "University of Karachi",
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqJbygFbHKsmbRig9tI1e1gNM5RI1qspw1gw&usqp=CAU',
-        duration: "January 2017 - January 2021",
+        img: IULogo,
+        institute: "Iqra University",
+        duration: "October 2018 - till date",
         degree: "Bachelor Of Science In Computer Science",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        img: JouharDegree,
-        institute: "PECHS Edu Found Govt Sci College",
-        degree: "Pre-Engineering",
-        duration: "2013 - 2016",
+        img: NCR,
+        institute: "NCR-CET College",
+        degree: "Computer Science",
+        duration: "2016 - 2018",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        img: TheEducators,
-        institute: "The Educators",
+        img: School,
+        institute: "Karachi Montessori High School",
         degree: "Matriculation",
-        duration: "2001 - 2013",
+        duration: "2006 - 2016",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -121,8 +97,8 @@ const experience = [
     {
         img: Freelancing,
         experienceName: "FREELANCING",
-        experienceOccup: "FULL STACK DEVELOPER",
-        experienceDate: "JUNE 2019 - Present",
+        experienceOccup: "FRONT-END DEVELOPER",
+        experienceDate: "JUNE 2020 - Present",
         experienceDetails: `
         Creating rich proefssional web applications
         Created various Portfolio websites
@@ -132,7 +108,7 @@ const experience = [
         img: TechNest,
         experienceName: "TechNest",
         experienceOccup: "SOFTWARE ENGINEER",
-        experienceDate: "JUNE 2019 - 2020",
+        experienceDate: "JUNE 2021 - till date",
         experienceDetails: `
         Designs and creates professional web applications
         Checks feasibility of software prototypes
@@ -148,20 +124,8 @@ const proficiency = [
         level: 95,
     },
     {
-        name: "NodeJS/Express",
-        level: 90,
-    },
-    {
-        name: "MongoDB/Mongoose",
-        level: 85,
-    },
-    {
         name: "Firebase",
-        level: 75,
-    },
-    {
-        name: "SQL Database",
-        level: 65,
+        level: 70,
     },
     {
         name: "Github",
@@ -169,27 +133,22 @@ const proficiency = [
     },
     {
         name: "HTML",
-        level: 90,
+        level: 95,
     },
     {
         name: "CSS3",
-        level: 87,
+        level: 90,
     },
     {
         name: "Javascript",
-        level: 95,
-    },
-   
-    {
-        name: "React Native",
-        level: 70,
+        level: 80,
     },
 ];
 
 //Your Projects
 const projects = [
     {
-        img: pic1,
+        img: Project1,
         workName: "Giverpays",
         link: "https://giverpays.com/"
     },
@@ -217,26 +176,25 @@ const projects = [
 
 // Your Social Media Link
 const socialMediaLinks = {
-    github: "https://github.com/Talha619",
-    linkedin: "https://www.linkedin.com/in/hafiz-talha/",
-    gmail: "hafiz.talhakh@gmail.com",
-    facebook: "https://www.facebook.com/hafiz.talha.50"
+    github: "https://github.com/sohaib-19",
+    linkedin: "https://www.linkedin.com/in/syed-sohaib-ahmed-819ab317b/",
+    gmail: "syedsohaibahmed4@gmail.com",
+    facebook: "https://www.facebook.com/sohaib.ahmed.90226/"
     // Instagram and Twitter are also supported in the links!
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 const openSource = {
-    githubConvertedToken: atob(process.env.REACT_APP_GITHUB_TOKEN),
-    githubUserName: "Talha619", // Change to your github username to view your profile in Contact Section.
+    // githubConvertedToken: atob(process.env.REACT_APP_GITHUB_TOKEN),
+    githubUserName: "sohaib-19", // Change to your github username to view your profile in Contact Section.
     showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 const contactInfo = {
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+923362502067",
-    number2: "+923040438807",
-    email: "hafiz.talhakh@gmail.com"
+    number: "+923340285115",
+    email: "syedsohaibahmed4@gmail.com"
 };
 
 export {
