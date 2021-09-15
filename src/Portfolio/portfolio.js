@@ -2,10 +2,6 @@
 
 import HTML from '../Assets/Images/Mask Group 22.png';
 import ReactIcon from '../Assets/Images/react.svg';
-import NodeIcon from '../Assets/Images/nodejs.svg';
-import ExpressIcon from '../Assets/Images/expressjs.png';
-import MongoDbIcon from '../Assets/Images/mongodb.svg';
-import SqlDatabase from '../Assets/Images/sql-database.svg';
 import CSSIcon from '../Assets/Images/css-3.svg';
 import GithubIcon from '../Assets/Images/github.svg';
 import JavascriptIcon from '../Assets/Images/javascript.svg';
@@ -17,7 +13,6 @@ import School from '../Assets/Images/school.jpg';
 import Freelancing from '../Assets/Images/freelancing.svg';
 import TechNest from '../Assets/Images/logo-white.jpg';
 import Project1 from '../Assets/Project Images/Project1.png';
-// import pic1 from '../Assets/Work/logo.jpg'
 
 const customColorTheme = {
     primaryColor: "#ffff00",
@@ -65,7 +60,7 @@ const education = [
     {
         img: IULogo,
         institute: "Iqra University",
-        duration: "October 2018 - till date",
+        duration: "October 2018 - Till Date",
         degree: "Bachelor Of Science In Computer Science",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
@@ -108,7 +103,7 @@ const experience = [
         img: TechNest,
         experienceName: "TechNest",
         experienceOccup: "SOFTWARE ENGINEER",
-        experienceDate: "JUNE 2021 - till date",
+        experienceDate: "JUNE 2021 - Till Date",
         experienceDetails: `
         Designs and creates professional web applications
         Checks feasibility of software prototypes

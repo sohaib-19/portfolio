@@ -49,7 +49,7 @@ export default function Footer() {
                 <Divider style={{ background: customColorTheme.primaryColor, marginTop: 20 }} />
                 <div className={creditDiv}>
                     <Typography className={normalText} style={{ padding: 20, color: customColorTheme.primaryColor }}>
-                        All Rights Reserved By Talha Khalid
+                        All Rights Reserved By Syed Sohaib Ahmed
                     </Typography>
                 </div>
             </Fragment>
